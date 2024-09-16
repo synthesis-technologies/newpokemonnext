@@ -1,5 +1,5 @@
 import { gql, request } from 'graphql-request';
-import { API_ENDPOINT } from '../constants/pokemon';
+import { API_ENDPOINT } from '../src/constants/pokemon';
 import { PokemonEvolution } from '../src/types';
 
 const query = gql`
